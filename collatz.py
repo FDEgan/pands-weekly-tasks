@@ -1,5 +1,4 @@
-int = 10 #Setting my initial list
-
+int = 10 # Setting my initial list
 num_list = [int] #Creating a new list that will take in the integer I chose
 while int != 1: # Using a while to dictate, when the value is not 1 to persist through the loop
     if int % 2 == 0: # Using a modulo to see if the value is odd or even - This is in case the value is even
