@@ -13,4 +13,4 @@ plt.xlabel('Value') #Setting Label of X Axis
 plt.ylabel('No. of Occurrences Of Values') #Setting Label of Y Axis
 plt.legend() # Showing the legend
 plt.show() # Showing the plot
-# Used for 2nd Function: http://www.ece.northwestern.edu/local-apps/matlabhelp/techdoc/ref/linspace.html#:~:text=linspace%20(MATLAB%20Functions)&text=The%20linspace%20function%20generates%20linearly,and%20including%20a%20and%20b.
+# Used for 2nd Function: https://numpy.org/doc/stable/reference/generated/numpy.arange.html
