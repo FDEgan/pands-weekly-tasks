@@ -13,4 +13,5 @@ plt.xlabel('Value') #Setting Label of X Axis
 plt.ylabel('No. of Occurrences Of Values') #Setting Label of Y Axis
 plt.legend() # Showing the legend
 plt.show() # Showing the plot
+
 # Used for 2nd Function: https://numpy.org/doc/stable/reference/generated/numpy.arange.html

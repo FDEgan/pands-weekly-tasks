@@ -17,3 +17,6 @@ except Exception as e:  # Creating an error for when script runs into an excepti
 
 # File Not Found: https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/
 # Exception: https://docs.python.org/3/tutorial/errors.html
+# Reading in Files: https://www.w3schools.com/python/python_file_open.asp
+# Reading in Files: https://www.geeksforgeeks.org/reading-writing-text-files-python/
+# Reading in Files: https://realpython.com/read-write-files-python/
