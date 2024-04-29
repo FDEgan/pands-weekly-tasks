@@ -1,5 +1,5 @@
 from collections import Counter # Importing Libraries
-text = input("Enter the file name: ") # Getting user to input file location for script
+text = input("Enter the file path: ") # Getting user to input file location for script
 char_to_count = input("Enter the character you want to count: ") # Getting user to identify character they want to count
 try:
     with open(text, 'r') as file: # Opening the file in read mode
@@ -8,7 +8,7 @@ try:
         count_of_letter = num_of_instances[char_to_count] # Specifying that I want to count the character the user inputted
         print("Number of occurrences in the text:", count_of_letter) # Printing out the occurence of the letter specified
 except FileNotFoundError: # Creating an error for when the file was not found
-    print("File has not been found. Can you make sure you have entered the correct file name.")
+    print("This file was not found. Can you make sure the correct file path is being used.")
 except IsADirectoryError: # Creating an error for when file path is not correct
     print("The file path you provided is a directory and not a path to a file. Please recheck the file path.")
 except Exception as e:  # Creating an error for when script runs into an exception when running.
