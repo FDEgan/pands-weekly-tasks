@@ -4,7 +4,7 @@
 # In[28]:
 
 
-account_number = '53770623187116811810' # Setting an account number as a string
+account_number = input("Please enter a value: ") # Prompting user to enter account number
 
 
 # In[29]:

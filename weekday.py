@@ -16,6 +16,6 @@ day_of_week = {
 todays_weekday_is = day_of_week[str(today)] # Creating a variable that reads if its a weekday/weekend
 print(todays_weekday_is) # Validating Output
 if today < 4: # Printing validation statement
-    print(f"Yes, unfortunately today is a {todays_weekday_is}. ")
-else:
-    print(f"It is the {todays_weekday_is}, yay!. ")
+    print(f"Yes, unfortunately today is a {todays_weekday_is}. ") # Using an if statement, where if the day value is less then 4 it prints this statement
+else: # Using an Else Statement
+    print(f"It is the {todays_weekday_is}, yay!. ") # If the value is greater than 4 it prints this statement
