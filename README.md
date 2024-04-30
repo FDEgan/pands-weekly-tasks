@@ -254,29 +254,31 @@ The square root of 14.5 is approx. 3.8.<br>
 
 ### Code<br>
 ```
-def newton_square(number, first_estimate): # Creating function to take in number that we want the square root of and the first estimate we have
-    estimate = first_estimate # Creating an estimate variable which assigns the initial estimate as our estimate
-    new_estimate = 0.5 * (estimate + number / estimate) # Creating a new variable that is equal to the value returned from Newton Square Root formula 
-    while new_estimate != estimate: # While the new estimate is not equal to our last/ original estimate persist with the code in the loop
-        estimate = new_estimate # Assign/ Reassign our estimate as the new estimate
-        new_estimate = 0.5 * (estimate + number / estimate) # Assign/ Reassign new estimate as the value returned using the Newton Square Root formula
+def square_root(value, init_est): # Creating function to take in number that we want the square root of and the first estimate we have
+    est = init_est # Creating an estimate variable which assigns the initial estimate as our estimate
+    updated_estimate = 0.5 * (est + value / est) # Creating a new variable that is equal to the value returned from Newton Square Root formula 
+    while updated_estimate != est: # While the new estimate is not equal to our last/ original estimate persist with the code in the loop
+        est = updated_estimate # Assign/ Reassign our estimate as the new estimate
+        updated_estimate =  (est + value / est) * 0.5 # Assign/ Reassign new estimate as the value returned using the Newton Square Root formula
 
-    return round(new_estimate,1) # Once the new estimate is equal to our estimate i.e. Our new estimate is equal to the value returned using the Newton Square Root formula then return the rounded new estimate
+    return round(updated_estimate,1) # Once the new estimate is equal to our estimate i.e. Our new estimate is equal to the value returned using the Newton Square Root formula then return the rounded new estimatez
+
+value = float(input("Enter the number you require the square root of: ")) # Prompting User to input Value
+init_est = float(input("Enter an estimation of square root of the number here: ")) # Prompting User to input Value
+print(f"Square root of {value} is approximately {square_root(value, init_est)}") # Printing the statement out
 ```
 
-```
-result = newton_square(14.5,6) # Printing the result
-print("Square root is approx:", result) # Inputting the result into a string to print out
-```
 ### Sample Input<br>
 **Number/ Estimate:** 14.5/6 <br>
 
 ### Output<br>
-![image](https://github.com/FDEgan/pands-weekly-tasks/assets/157654218/1105fdfa-d519-45bf-b9d3-cd076f2bc629)
+![image](https://github.com/FDEgan/pands-weekly-tasks/assets/157654218/a5807eb8-013a-4b4e-9697-201d4b71a0ca)
+
 
 **References**
 1. **Exploring how the Newtons Square Root Equation Works:** https://www.youtube.com/watch?v=FpOEx6zFf1o
 2. **For Guiding how the Python Program Should Work i.e. The flow of the Calculation:** https://www.youtube.com/watch?v=xdlIFw5EM4w
+3. **For Guiding how the calculation could work:** https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
 
 
 <h2 align="center">Week Seven Task - File - Character Counter </h1><a name="week-seven-task"></a>
