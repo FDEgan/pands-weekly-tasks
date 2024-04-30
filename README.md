@@ -1,6 +1,4 @@
-div {
-    text-align: center;
-}
+
 # Weekly Tasks
 
   ## Table of Contents
