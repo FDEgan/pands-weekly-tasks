@@ -277,10 +277,11 @@ print(f"Square root of {value} is approximately {square_root(value, init_est)}")
 
 **References**
 1. **Exploring how the Newtons Square Root Equation Works:** https://www.youtube.com/watch?v=FpOEx6zFf1o
-2. **For Guiding how the Python Program Should Work i.e. The flow of the Calculation:** https://www.youtube.com/watch?v=xdlIFw5EM4w
-3. **For Guiding how the calculation could work:** https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
-4. **For adding in the function output to a print statement:** https://blog.finxter.com/python-return-string-from-function/
-5. **For adding in the function output to a print statement (2):** https://realpython.com/defining-your-own-python-function/
+2. **Exploring how the Newtons Square Root Equation Works (2):** https://matt.coneybeare.me/coding-challenge-implement-a-square-root-function/
+3. **For Guiding how the Python Program Should Work i.e. The flow of the Calculation:** https://www.youtube.com/watch?v=xdlIFw5EM4w
+4. **For Guiding how the calculation could work:** https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+5. **For adding in the function output to a print statement:** https://blog.finxter.com/python-return-string-from-function/
+6. **For adding in the function output to a print statement (2):** https://realpython.com/defining-your-own-python-function/
 
 
 <h2 align="center">Week Seven Task - File - Character Counter </h1><a name="week-seven-task"></a>
