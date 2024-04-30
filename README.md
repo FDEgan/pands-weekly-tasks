@@ -17,6 +17,9 @@
 <h2 align="center">Overview</h1><a name="overview"></a>
 Every week a new task will be put into the weekly tasks on the VLE. Your solutions will be assessed towards the end of the semester and will be worth 50% of your marks for this module. The marking scheme is given below. It is expected that you will be working on the exercises throughout the semester. It is not expected that you get every program right first time. So long as an attempt is made the week the problem is posted, this will count as a good approach. It is important that you keep working on any incomplete problems until the deadline. Please note that all students are bound by the Quality Framework [3] at GMIT which includes the Code of Student Conduct and the Policy on Plagiarism. The onus is on the student to ensure they do not, even inadvertently, break the rules. A clean and comprehensive git [1] history (see below) is the best way to demonstrate that your submission is your own work. It is, however, expected that you draw on works that are not your own and you should systematically reference those works to enhance your submission. 
 
+<h2 align="center">Note</h1><a name="overview"></a>
+Based on email earlier in the semester, I will be evaluated on code, consistency, and readme for this project. Email dated: 05/05/2024.
+
 <h2 align="center">Week Two Task - Statements - Rounding Calculation</h1><a name="week-two-task"></a>
 <p align="center">
   <img src="https://github.com/FDEgan/pands-weekly-tasks/assets/157654218/f06ca7f6-7aae-4e7d-9049-16ce6ec6f8a5" alt="Banking">
