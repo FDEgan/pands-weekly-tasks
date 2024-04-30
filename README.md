@@ -98,6 +98,11 @@ XXXXXX7890<br>
 ### Extra<br>
 Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 
+### Assumptions<br>
+1. If there is 4 digits or less, then it will show whatever number of digits were entered. Be it 1,2,3 or 4 as they are within the last 4 digits and so will not be encrpyted.
+2. To modidy it to take any length, we need to see how long the string length is.
+3. We need to use indexing to get the last 4 digits.
+
 ### Code<br>
 ```
 account_number = input("Please enter a value: ") # Prompting user to enter account number
