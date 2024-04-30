@@ -7,13 +7,13 @@ div {
 - [Weekly Tasks](#weekly-tasks)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
-  - [Week Two Task - Statements](#week-two-task)
-  - [Week Three Task](#week-three-task)
-  - [Week Four Task](#week-four-task)
-  - [Week Five Task](#week-five-task)
-  - [Week Six Task](#week-six-task)
-  - [Week Seven Task](#week-seven-task)
-  - [Week Eight Task](#week-eight-task)
+  - [Week Two Task - Statements - Rounding Calculation](#week-two-task)
+  - [Week Three Task - Variables - Concealed Account Number](#week-three-task)
+  - [Week Four Task - Controlling Flow - Calculation](#week-four-task)
+  - [Week Five Task - Data - Weekday Program<](#week-five-task)
+  - [Week Six Task - Functions - Newtons Square Root](#week-six-task)
+  - [Week Six Task - File - Character Counter](#week-seven-task)
+  - [Week Eight Task - MatPlotLib - Plot Task ](#week-eight-task)
   - [Contributors](#contributors)
   - [License](#license)
 <h2 align="center">Overview</h1><a name="overview"></a>
@@ -76,6 +76,7 @@ print(f'The sum of these is €{rounded_sum}.')
 
 
 ### References
+N/A
 
 <h2 align="center">Week Three Task - Variables - Concealed Account Number</h1><a name="week-three-task"></a>
 <p align="center">
@@ -119,6 +120,7 @@ print(encrypted_acc_num) # Printing the calculated variable for validation
 
 
 ### References
+N/A
 
 <h2 align="center">Week Four Task - Controlling Flow - Calculation</h1><a name="week-four-task"></a>
 <p align="center">
@@ -162,6 +164,7 @@ print(num_list) # Print out that new list
 
 
 ### References
+N/A
 
 <h2 align="center">Week Five Task - Data - Weekday Program</h1><a name="week-five-task"></a>
 <p align="center">
@@ -221,6 +224,11 @@ else: # Using an Else Statement
 ![image](https://github.com/FDEgan/pands-weekly-tasks/assets/157654218/4a3f686f-f51a-4847-b02a-4fec8beaaa02)
 
 ### References
+**Getting the Current Date:** https://www.geeksforgeeks.org/get-current-date-using-python/ <br>
+**Creating Key Value Pairs:** https://www.mygreatlearning.com/blog/python-dictionary-append/ <br>
+                              https://www.geeksforgeeks.org/add-a-keyvalue-pair-to-dictionary-in-python/ <br>
+
+I had a good idea from previous experience of how to go about the task but needed to remind myself of the structure for Key Value Pairs. Additionally, I needed to investigate the best way of returning the current day for the calculation.
 
 <h2 align="center">Week Six Task - Functions - Newtons Square Root</h1><a name="week-six-task"></a>
 <p align="center">
@@ -269,6 +277,9 @@ print("Square root is approx:", result) # Inputting the result into a string to 
 ![image](https://github.com/FDEgan/pands-weekly-tasks/assets/157654218/1105fdfa-d519-45bf-b9d3-cd076f2bc629)
 
 **References**
+1. **Exploring how the Newtons Square Root Equation Works:** https://www.youtube.com/watch?v=FpOEx6zFf1o
+2. **For Guiding how the Python Program Should Work i.e. The flow of the Calculation:** https://www.youtube.com/watch?v=xdlIFw5EM4w
+
 
 <h2 align="center">Week Seven Task - File - Character Counter </h1><a name="week-seven-task"></a>
 <p align="center">
@@ -317,8 +328,26 @@ except Exception as e:  # Creating an error for when script runs into an excepti
 
 
 ### Assumptions<br>
+1. We would only be reading in text files from a folder on the users computer.
+2. It may be that we want to see the occurence of different characters as opposed to just "e".
+3. That only the three error exceptions listed in the file were adequate for the intended usage of the file.
 
 ### References
+During my masters I had designed a very similar piece of code, so had a good idea of how the problem should be tackled.
+
+I had not previously needed to deal with errors. So for the errors I used the below to help:
+1. **File Not Found:** https://www.geeksforgeeks.org/why-am-i-getting-a-filenotfounderror-in-python/
+2. **Exception:** https://docs.python.org/3/tutorial/errors.html
+3. **Directory Error:** https://docs.python.org/3/library/exceptions.html
+
+For reading in files I needed to refresh my memory. So for the reading in files I used the below to help:
+1. Reading in Files: https://www.w3schools.com/python/python_file_open.asp
+2. Reading in Files: https://www.geeksforgeeks.org/reading-writing-text-files-python/
+3. Reading in Files: https://realpython.com/read-write-files-python/
+
+I had used the Counter library previously, so again needed to refresh my memory so relied on the below:
+1. https://www.geeksforgeeks.org/python-frequency-of-each-character-in-string/
+
 
 <h2 align="center">Week Eight Task - MatPlotLib - Plot Task </h1><a name="week-eight-task"></a>
 <p align="center">
@@ -334,7 +363,7 @@ plottask.py
 
 ### Program Outline<br>
 The program should:
-1. displays a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2.
+1. Display a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2.
 2. Plot of the function  h(x)=x^3 in the range 0 to 10.
 3. On one set of axes.
 
@@ -363,6 +392,13 @@ plt.show() # Showing the plot
 ![image](https://github.com/FDEgan/pands-weekly-tasks/assets/157654218/d5bd9a07-9f38-41ba-bcc9-ecba4490a35b)
 
 **References**
+
+I have used MatPlotLib and other Python libraries in the past so had a good idea of what needed to be done. I needed to refresh my mind on Numpy Arrays, so used the below:
+1. https://numpy.org/doc/stable/reference/generated/numpy.arange.html
+
+Additionally, I used the main documentation for each of the Numpy and MatPlotLib libraries when creating the plots. Please see below:   
+1. https://numpy.org/
+1. https://matplotlib.org/stable/plot_types/index
 
 ## Contributors <a name="contributors"></a>
 - [Barry Egan](https://github.com/FDEgan)
